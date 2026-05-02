@@ -16,7 +16,6 @@ public class CameraController : NetworkBehaviour
 
         if (!isOwner)
         {
-            Debug.Log("Camera go bye bye!");
             gameObject.SetActive(false);
             return;
         }
